@@ -1,5 +1,6 @@
 require "empty/version"
 
 module Empty
-  # Your code goes here...
 end
+
+require "empty/railtie" if defined?(Rails::Railtie)
