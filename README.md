@@ -1,28 +1,32 @@
 # Empty
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/empty`. To experiment with that code, run `bin/console` for an interactive prompt.
+> Empty collection helpers for ActiveRecord and Draper
 
-TODO: Delete this and the text above, and describe your gem
+Empty brings the [Null Object Pattern](https://robots.thoughtbot.com/rails-refactoring-example-introduce-null-object) to collections.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'empty'
+gem "empty"
 ```
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install empty
+```
+$ gem install empty
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO
 
 ## Development
 
@@ -32,10 +36,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/empty. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/macklinu/empty. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
