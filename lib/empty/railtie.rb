@@ -10,6 +10,7 @@ module Empty
       if defined?(Draper::CollectionDecorator)
         Draper::CollectionDecorator.send(:include, Empty::OrIfEmpty)
       end
+      Array.include(Empty::OrIfEmpty)
     end
   end
 end
